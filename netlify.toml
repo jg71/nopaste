@@ -1,6 +1,8 @@
 # Build
 [build]
-  command = "rm LICENSE.txt netlify.toml README.md"
+  base = "."
+  command = "rm LICENSE.txt README.md"
+  publish = "."
 
 # Headers
 [[headers]]
