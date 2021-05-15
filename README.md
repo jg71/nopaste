@@ -81,10 +81,10 @@ NoPaste links can be created easily from your system's command line:
 
 ```bash
 # Linux
-echo -n 'Hello World' | lzma | base64 -w0 | xargs -0 printf "https://nopaste.ml/#%s\n"
+echo -n 'Hello World' | lzma | base64 -w0 | xargs -0 printf "https://paste.strappazzon.xyz/#%s\n"
 
 # Mac
-echo -n 'Hello World' | lzma | base64 | xargs -0 printf "https://nopaste.ml/#%s\n"
+echo -n 'Hello World' | lzma | base64 | xargs -0 printf "https://paste.strappazzon.xyz/#%s\n"
 ```
 
 <!-- References -->
