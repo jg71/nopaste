@@ -1,0 +1,16 @@
+@page {
+	margin: 0;
+}
+
+#controls * {
+	visibility: hidden;
+}
+
+#controls *.print,
+#controls *.print * {
+	visibility: visible;
+}
+
+#controls .col-auto:last-child {
+	display: none;
+}
