@@ -27,13 +27,13 @@ body {
 #controls,
 #copy,
 footer {
-	background-color: #3b3b47;
+	background-color: #474d51;
 	z-index: 10;
 }
 
 #progress {
 	min-height: 3px;
-	background: #ff79c6;
+	background: #5f9ea0;
 	z-index: 15;
 	width: 0;
 }
@@ -101,8 +101,57 @@ h1 {
 	font-family: JetBrainsMono, 'Lucida Console', 'Courier New', monospace;
 }
 
-.pink {
-	color: #ff79c6;
+.highlight {
+	color: #a8c9fd;
+}
+
+/* Override theme properties */
+
+.cm-s-base16-dark.CodeMirror,
+.cm-s-base16-dark .CodeMirror-gutters {
+	background: #222;
+}
+
+.cm-s-base16-dark .CodeMirror-linenumber {
+	color: #707070;
+}
+
+.cm-s-base16-dark span.cm-keyword,
+.cm-s-base16-dark span.cm-tag {
+	color: #d24f50;
+}
+
+.cm-s-base16-dark span.cm-comment {
+	color: #607d8b;
+}
+
+/* Override CodeMirror properties */
+
+/*
+.cm-positive,
+.cm-negative {
+	display: inline-block;
+	width: 100%;
+}
+*/
+
+.cm-positive {
+	background: rgba(34, 153, 34, 0.2);
+}
+
+.cm-negative {
+	background: rgba(221, 68, 68, 0.2);
+}
+
+/* Override SlimSelect properties */
+
+.ss-content .ss-search input:focus {
+	box-shadow: 0 0 3px #cfcfcf;
+}
+
+.ss-content .ss-list .ss-option.ss-highlighted,
+.ss-content .ss-list .ss-option:hover {
+	background-color: #666;
 }
 
 /* Modals */
@@ -116,7 +165,7 @@ h1 {
 }
 
 .modal-content {
-	background-color: #3b3b47;
+	background-color: #474d51;
 	max-width: 600px;
 	max-height: 100vh;
 	overflow-y: auto;
@@ -153,7 +202,7 @@ h1 {
 button,
 input[type='text'],
 input[type='search'] {
-	background-color: #3b3b47 !important;
+	background-color: #474d51 !important;
 	color: #fff !important;
 	border-radius: 2px !important;
 	border: 1px solid #ccc !important;
@@ -183,13 +232,13 @@ button:hover {
 }
 
 .ss-content {
-	background-color: #282936;
+	background-color: #3b3b3b;
 	color: #dedede;
 	font-size: 14px;
 }
 
 .ss-content .ss-disabled {
-	background-color: #3b3b47 !important;
+	background-color: #474d51 !important;
 }
 
 /* Fonts */
