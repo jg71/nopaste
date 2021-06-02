@@ -42,7 +42,7 @@ Here is an example of generated code and how it looks (click on the screenshot t
 ></iframe>
 ```
 
-[![iframe](https://i.imgur.com/y9NpsXW.png)](https://jsfiddle.net/jyuLkfq8/)
+[![iframe](https://i.imgur.com/y9NpsXW.png)](https://jsfiddle.net/jyuLkfq8/2/)
 
 Feel free to edit the `height` and `width` attributes, so they suit your needs.
 
